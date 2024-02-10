@@ -1,0 +1,217 @@
+.hero{
+    display: flex;
+     justify-items: space-between;
+    color: white;
+    }
+    
+    .left-h{
+    padding: 2rem;
+    padding-top: 1rem ;
+    flex: 3;
+    display: flex;
+     gap:0.5rem;
+       flex-direction: column;  
+     }
+     
+    .right-h{
+        height: 40rem;
+        
+        flex: 1;
+        background-color: rgb(223, 128, 12);
+        
+     }
+    .the-best-ad{
+        margin-top: 1.5rem ;
+        margin-bottom: 2rem;
+        background-color: #282c34;
+        border-radius: 6rem;
+        width: fit-content;
+         padding: 15px 15px;
+         text-transform: uppercase;
+        color: rgb(247, 244, 235);
+        position: relative;
+        display: flex;
+        align-items: center;
+         justify-content: flex-start; 
+        }
+    .the-best-ad>span{
+        z-index: 4;    }
+    .the-best-ad>div{
+         position: absolute;
+         background-color: rgb(199, 123, 10);
+         width: 5rem;
+         height: 80%;
+         left: 8px;
+         border-radius: 3rem;
+         z-index: 1;
+        }
+    .hero-text{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        text-transform: uppercase;
+        font-size: 4rem;
+        font-weight: bold;
+        color: white;
+        text-overflow: inherit;
+        left: 1px;
+        top: 0%;
+
+
+    }
+
+    .hero-text>div:nth-last-of-type(3){
+        font-size: 1rem;
+        
+        margin-top: 2rem;
+        text-transform: none;
+        letter-spacing: 1px; 
+        width: 5%;
+        text-transform: uppercase;
+    }
+    .stoke-text{
+        margin-top: -2rem;   
+        margin-bottom: 5rem; 
+    }
+
+    .figures{
+        display: flex;
+        gap: 2rem;
+        margin-top: 2rem;
+        font-size: 1.8rem;
+
+    }
+
+    .figures>div{
+        display: flex;
+        flex-direction: column;  
+        
+
+    }
+
+    .figures>div>span:nth-last-of-type(1){
+     color: rgb(172, 165, 165);
+     font-size: 1rem;
+    }
+
+    .figures>:div>span:nth-last-of-type(2){
+        color: RGB (147, 147, 147);
+         text-transform: uppercase; 
+        font-size: 2rem;
+        
+    }
+    .hero-buttons{
+     display: flex;
+     gap: 1rem;
+     margin-top: 1.5rem;
+     /* align-self: start; */
+     font-weight: normal;
+     /* text-align: start; */
+    }
+
+    .hero-buttons>:nth-child(1){
+      color: rgb(243, 241, 241);
+      background-color: rgb(223, 128, 12);
+      width: 8rem;
+      right: 4rem;
+    }
+    .hero-buttons>:nth-child(2){
+        color: rgb(243, 241, 241);
+        background-color:transparent;
+        width: 8rem;
+        right: 4rem;
+        border: 2px solid rgb(223, 128, 12);
+      }
+
+    .right-h>.btn{
+        position: absolute;
+        right: 3.6rem;
+        top: 2.6rem;
+        color: black;
+        
+    }
+
+
+    .heart-rate{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        background-color:rgb(78, 75, 75);
+        width: fit-content;
+        padding: 1rem;
+        align-items: start;
+        border-radius: 5px;
+        position: absolute;
+        right: 4.4rem;
+        top: 7rem;
+    }
+
+    .heart-rate>:nth-child(2){
+        color:rgb(137, 134, 134);
+
+    }
+    .heart-rate>:nth-child(3){
+        color: white;
+        font-size: 1.5rem;
+        font-family:'Gill Sans';
+    }
+    
+    .heart-rate>img{
+        width: 2rem;
+    }
+    .hero-image{
+        position: absolute;
+        top: 10.5rem;
+        right: 10rem;
+        width: 22rem;
+        height: 30rem;
+    }
+    .hero-image-back{
+        position: absolute;
+        top: 5rem;
+        /* right: 16rem; */
+        height:23rem;
+        width: 18rem;
+        z-index: -1rem;
+    }
+    .calories{
+        display: flex;
+        gap: 1.5rem;
+        background-color: rgb(107, 107, 103);
+        border-radius: 7px;
+        padding: 1rem;
+        width: 7rem;
+        position: absolute;
+        height: 6rem;
+        padding-bottom: 1.2rem;
+         top: 30rem;
+        /* right: 28rem;  */
+    }
+    .calories>img{
+        width: 2.3rem;
+        height: 5.7rem;
+        margin-top: 0.5rem;
+       
+    }
+    .calories>div
+
+    {
+     display: flex;
+     flex-direction: column;
+     
+
+    }
+    .calories>div>:nth-child(1){
+        color: rgb(161, 156, 156);
+        
+    }
+    .calories>div>:nth-child(2){
+        color: white;
+        font-size: 1.5rem;
+       
+    }
+    .hero-blur{
+        width: 17rem;
+        height: 20rem;
+        left: 0;
+    }

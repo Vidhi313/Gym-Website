@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    justify-content:space-between;
+    
+    padding:1rem ;
+    
+}
+
+.logos{
+    width: 8rem;
+    height: 2.5rem;
+}
+
+/* header.css */
+.header-menu {
+    list-style: none;
+    display: flex;
+    gap: 2.3rem;
+    color: white;
+}
+
+.header-menu > li a {
+    color: inherit; 
+    text-decoration: none; 
+}
+
+.header-menu > li:hover {
+    color: orange;
+    cursor: pointer;
+}
